@@ -7,7 +7,7 @@ public class Gaji extends Pegawai {
         setSalary(salary);
     }
 
-    public void mailCheck() {
+    public void mailCheck() { //overriding
         System.out.println("Memeriksa Kelas Gaji dalam Surat ");
         System.out.println("Surat Tertuju Untuk " + getName() + "dengan gaji " + salary);
     }

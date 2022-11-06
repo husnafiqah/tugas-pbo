@@ -10,7 +10,7 @@ public class Pegawai {
         this.number = number;
     }
 
-    public void mailCheck() {
+    public void mailCheck() { //overriding
         System.out.println("Memeriksa surat untuk " + this.name + "" + this.address);
     }
 
